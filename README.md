@@ -1,12 +1,12 @@
-# Medallion SQL Server Data Warehouse & Analytics Project
+# Data Warehouse & Analytics Project
 
 ## 📖 Overview
 
-This project demonstrates the implementation of a modern data warehouse using SQL Server and the Medallion Architecture. It features ETL pipelines, dimensional data modeling, and a star schema to support analytical reporting. The project is designed as a portfolio piece showcasing data engineering and analytics best practices.
+This project follows the **Medallion Architecture** pattern using **Microsoft SQL Server** that demonstrates the implementation of a modern data warehouse. It features ETL pipelines, dimensional data modeling, and a star schema to support analytical reporting.
 
 ## 🏗️ Architecture
 
-<img width="923" height="569" alt="DWH Diagram" src="https://github.com/user-attachments/assets/910537bc-e911-4c31-9cac-af0766b6c992" />
+<img width="982" height="389" alt="DWH Diagram-Page-1" src="https://github.com/user-attachments/assets/709a0829-1eee-4e5c-9398-19eaaff35fd1" />
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV files into a SQL Server database.
 2. **Silver Layer**: Cleanses, standardizes, and normalizes data to prepare it for analysis.
@@ -16,7 +16,7 @@ This project demonstrates the implementation of a modern data warehouse using SQ
 
 ## 🚀 Project Requirements
 
-### Building the Data Warehouse (Data Engineering)
+### Building the Data Warehouse
 
 #### Objective
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
@@ -30,7 +30,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
-### BI: Analytics & Reporting (Data Analysis)
+### BI: Analytics & Reporting
 
 #### Objective
 Develop SQL-based analytical queries to provide insights into:
