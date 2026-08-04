@@ -64,6 +64,8 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 │       └── load_proc_silver.sql          # silver.load_silver procedure (cleansing/transform + load_log)
 │ 
 ├── tests/                                # Data quality / validation checks
+│       ├── quality_checks_gold.sql       
+│       └── quality_checks_silver.sql     
 │
 ├── LICENSE
 └── README.md
