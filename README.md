@@ -141,3 +141,9 @@ The Gold layer is modeled as a star schema: `fact_sales` sits at the center, con
 
 <img width="900" height="550" alt="Entity Relationship Diagram" src="https://github.com/user-attachments/assets/46b459de-18ce-4bad-89bf-b001e2815756" />
 
+---
+
+## ⭐ Credits
+
+A big thank you to **Data with Baraa** for the amazing data engineering tutorials and guidance throughout this project build.
+
